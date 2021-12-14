@@ -46,10 +46,10 @@ public class SessionPatcher
 	public static String generateOptifineConfig(String username, String session, String uuid)
 	{
 		return String.format(optifineFileString,
-			username,
-			session,
-			uuid
-		);
+                        username,
+                        uuid,
+                        session
+                );
 	}
 	
 	public static OSType getOS()
